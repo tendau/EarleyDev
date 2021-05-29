@@ -1,0 +1,46 @@
+{
+  "name": "webpack-earley-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "autoprefixer": "^10.2.6",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "postcss": "^8.3.0",
+    "postcss-loader": "^5.3.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel-runtime": "^6.26.0",
+    "bootstrap": "^5.0.1",
+    "helmet": "^4.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-full-page": "^0.1.11",
+    "react-router-dom": "^5.2.0",
+    "react-script-tag": "^1.1.2",
+    "react-scroll-nav": "^1.1.5",
+    "react-wow": "^1.0.0",
+    "wow.js": "^1.2.2",
+    "wowjs": "^1.1.3"
+  }
+}
