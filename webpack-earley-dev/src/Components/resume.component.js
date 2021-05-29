@@ -3,6 +3,7 @@ import WOW from "./../../node_modules/wowjs";
 import profilepic from "./../assets/images/profilepic.jpg";
 import charecter from "./../assets/images/charecter-small.png";
 import logo from "./../assets/images/logo.png";
+import Experience from "./experience.component";
 
 export default class TodosList extends Component {
   componentDidMount() {
@@ -183,7 +184,6 @@ export default class TodosList extends Component {
                   >
                     <div className="img-border">
                       <img
-                        style={{ height: "360px" }}
                         src={profilepic}
                         alt="profile picture"
                         className="img-fluid"
@@ -496,80 +496,32 @@ export default class TodosList extends Component {
                   <div className="mh-work">
                     <h3>Work Experience</h3>
                     <div className="mh-experience-deatils">
-                      <div
-                        className="mh-work-item dark-bg wow fadeInUp"
-                        data-wow-duration="0.8s"
-                        data-wow-delay="0.4s"
-                      >
-                        <h4>
-                          Software Engineer II <a href="">Boecore Inc</a>
-                        </h4>
-                        <div className="mh-eduyear">2020 - current</div>
-                        <span>Responsibility :</span>
-                        <ul className="work-responsibility">
-                          <li>
-                            <i className="fa fa-circle"></i>Provided full stack
-                            development on the RAMS product working in React,
-                            C#, and LiteDB
-                          </li>
-                          <li>
-                            <i className="fa fa-circle"></i>Generated user
-                            stories from client meetings
-                          </li>
-                          <li>
-                            <i className="fa fa-circle"></i>Worked in a SCRUM
-                            agile environment
-                          </li>
-                        </ul>
-                      </div>
-                      <div
-                        className="mh-work-item dark-bg wow fadeInUp"
-                        data-wow-duration="0.8s"
-                        data-wow-delay="0.6s"
-                      >
-                        <h4>
-                          .Net Developer <a href="">USOPC</a>
-                        </h4>
-                        <div className="mh-eduyear">2020</div>
-                        <span>Responsibility :</span>
-                        <ul className="work-responsibility">
-                          <li>
-                            <i className="fa fa-circle"></i>Updated and maintain
-                            the TeamUSA.org website and related software
-                          </li>
-                          <li>
-                            <i className="fa fa-circle"></i>Worked in ASP.Net
-                            MVC, Sitecore CRM, Akamai CDN, and Azure cloud
-                            services
-                          </li>
-                          <li>
-                            <i className="fa fa-circle"></i>Worked agile
-                            environment
-                          </li>
-                        </ul>
-                      </div>
-                      <div
-                        className="mh-work-item dark-bg wow fadeInUp"
-                        data-wow-duration="0.8s"
-                        data-wow-delay="0.7s"
-                      >
-                        <h4>
-                          Developer <a href="">Mountain States Imaging </a>
-                        </h4>
-                        <div className="mh-eduyear">2019-2020</div>
-                        <span>Responsibility :</span>
-                        <ul className="work-responsibility">
-                          <li>
-                            <i className="fa fa-circle"></i>Developed and
-                            maintained ASP.NET MVC web applications
-                          </li>
-                          <li>
-                            <i className="fa fa-circle"></i>Developed internal
-                            windows applications to solve complex issues and
-                            improve workflow
-                          </li>
-                        </ul>
-                      </div>
+                      <Experience
+                        title="Software Engineer II"
+                        company="Boecore Inc."
+                        resps={[
+                          `Provided full stack development on the RAMS product working in React, C#, and LiteDB`,
+                          `Generated user stories from client meetings`,
+                          `Worked in a SCRUM agile environment`,
+                        ]}
+                      />
+                      <Experience
+                        title=".Net Developer"
+                        company="USOPC"
+                        resps={[
+                          `Updated and maintain the TeamUSA.org website and related software`,
+                          `Worked in ASP.Net MVC, Sitecore CRM, Akamai CDN, and Azure cloud`,
+                          `Worked in an agile environment`,
+                        ]}
+                      />
+                      <Experience
+                        title="Developer"
+                        company="Mountain States Imaging"
+                        resps={[
+                          `Developed and maintained ASP.NET MVC web applications`,
+                          `Developed internal windows applications to solve complex issues and improve workflow`,
+                        ]}
+                      />
                     </div>
                   </div>
                 </div>
