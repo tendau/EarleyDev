@@ -3,6 +3,7 @@ const path = require("path");
 const webpack = require("webpack");
 
 module.exports = {
+  mode: "development",
   context: __dirname,
   entry: "./src/index.js",
   output: {
@@ -44,10 +45,4 @@ module.exports = {
       React: "react",
     }),
   ],
-  externals: {
-    // global app config object
-    config: JSON.stringify({
-      apiUrl: "http://localhost:4000",
-    }),
-  },
 };

@@ -262,10 +262,11 @@ export default class TodosList extends Component {
                     </ul>
                   </div>
                   <a
-                    href=""
+                    href="https://1drv.ms/w/s!AjHr-sg4kXjIifgs0ELRWnR17cd4-Q?e=4xCPLm"
                     className="btn btn-fill wow fadeInUp"
                     data-wow-duration="0.8s"
                     data-wow-delay="0.4s"
+                    target="_blank"
                   >
                     Downlaod CV <i className="fa fa-download"></i>
                   </a>
@@ -323,7 +324,7 @@ export default class TodosList extends Component {
                   data-wow-delay="0.7s"
                 >
                   <i className="fa fa-object-ungroup sky-color"></i>
-                  <h3>Database Desing</h3>
+                  <h3>Database Design</h3>
                   <p>
                     In conjunction with the applications that I helped develope
                     I worked closely with different databases such as SQL,
@@ -600,10 +601,11 @@ export default class TodosList extends Component {
                   data-wow-duration="0.8s"
                   data-wow-delay="0.3s"
                 >
-                  <form
+                  {/* <form
                     id="contactForm"
                     className="single-form quate-form wow fadeInUp"
                     data-toggle="validator"
+                    action="mailto:jrekct@gmail.com"
                   >
                     <div id="msgSubmit" className="h3 text-center hidden"></div>
                     <div className="row">
@@ -656,7 +658,7 @@ export default class TodosList extends Component {
                         </button>
                       </div>
                     </div>
-                  </form>
+                  </form> */}
                 </div>
                 <div
                   className="col-sm-12 mh-copyright wow fadeInUp"
