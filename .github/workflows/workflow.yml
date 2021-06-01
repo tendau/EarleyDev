@@ -24,4 +24,4 @@ jobs:
             --application-name Earley-Dev \
             --deployment-group-name EarleyDev-DepGrp \
             --deployment-config-name CodeDeployDefault.OneAtATime \
-            --github-location repository= tenmdau/Earley-Dev, commitId=${{ github.sha }}
+            --github-location repository= tendau/Earley-Dev, commitId=${{ github.sha }}

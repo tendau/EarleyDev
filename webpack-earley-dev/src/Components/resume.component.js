@@ -266,7 +266,7 @@ export default class TodosList extends Component {
                     className="btn btn-fill wow fadeInUp"
                     data-wow-duration="0.8s"
                     data-wow-delay="0.4s"
-                    target="_blank"
+                    target="_blank "
                   >
                     Downlaod CV <i className="fa fa-download"></i>
                   </a>
