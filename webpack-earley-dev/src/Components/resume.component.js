@@ -498,6 +498,18 @@ export default class TodosList extends Component {
                     <h3>Work Experience</h3>
                     <div className="mh-experience-deatils">
                       <Experience
+                        start="2021"
+                        end="current"
+                        title="Full Stack Software Engineer"
+                        company="Microsoft (AIM Consulting)"
+                        resps={[
+                          `Worked on internal tools for Microsoft Research`,
+                          `Provided database design expertise in SQL and Cosmos DB`,
+                        ]}
+                      />
+                      <Experience
+                        start="2020"
+                        end="2021"
                         title="Software Engineer II"
                         company="Boecore Inc."
                         resps={[
@@ -507,6 +519,8 @@ export default class TodosList extends Component {
                         ]}
                       />
                       <Experience
+                        start="2020"
+                        end="2020"
                         title=".Net Developer"
                         company="USOPC"
                         resps={[
@@ -516,11 +530,24 @@ export default class TodosList extends Component {
                         ]}
                       />
                       <Experience
+                        start="2019"
+                        end="2020"
                         title="Developer"
                         company="Mountain States Imaging"
                         resps={[
                           `Developed and maintained ASP.NET MVC web applications`,
                           `Developed internal windows applications to solve complex issues and improve workflow`,
+                        ]}
+                      />
+                      <Experience
+                        start="2015"
+                        end="2019"
+                        title="Software Support / Developer"
+                        company="Alpine Technology"
+                        resps={[
+                          `Provided tier 1 support for office CMS applications`,
+                          `Developed customer facing portal in ASP.NET`,
+                          `Provided SQL support`,
                         ]}
                       />
                     </div>

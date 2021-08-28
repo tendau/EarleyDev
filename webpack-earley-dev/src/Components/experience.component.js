@@ -11,7 +11,9 @@ export default class Experience extends Component {
         <h4>
           {this.props.title} <a href="">{this.props.company}</a>
         </h4>
-        <div className="mh-eduyear">2020 - current</div>
+        <div className="mh-eduyear">
+          {this.props.start}-{this.props.end}
+        </div>
         <span>Responsibility :</span>
         <ul className="work-responsibility">
           {this.props.resps.map((resp, i) => (
