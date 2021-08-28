@@ -499,7 +499,7 @@ export default class TodosList extends Component {
                     <div className="mh-experience-deatils">
                       <Experience
                         start="2021"
-                        end="current"
+                        end="Current"
                         title="Full Stack Software Engineer"
                         company="Microsoft (AIM Consulting)"
                         resps={[

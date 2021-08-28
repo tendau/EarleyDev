@@ -12,7 +12,7 @@ export default class Experience extends Component {
           {this.props.title} <a href="">{this.props.company}</a>
         </h4>
         <div className="mh-eduyear">
-          {this.props.start}-{this.props.end}
+          {this.props.start} - {this.props.end}
         </div>
         <span>Responsibility :</span>
         <ul className="work-responsibility">
